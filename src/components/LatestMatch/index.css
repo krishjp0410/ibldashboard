@@ -1,0 +1,60 @@
+.latest-match-container {
+  background-color: #1e293b;
+  padding: 16px;
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .latest-match-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.latest-sub-card1 {
+  width: 30%;
+}
+
+.latest-sub-card2 {
+  width: 30%;
+}
+
+.latest-match-sub-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.latest-match-date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.latest-match-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.latest-match-image {
+  height: 80px;
+  width: 80px;
+}
+
+.match-sub-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 576px) {
+  .latest-sub-card2 {
+    text-align: end;
+  }
+}

@@ -1,0 +1,35 @@
+.match-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#1e293b, #a4261d);
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 576px) {
+  .team-matches-container {
+    width: 70%;
+  }
+}
+
+.team-banner-image {
+  height: 180px;
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .team-banner-image {
+    height: 280px;
+  }
+}
+
+.team-matches-title {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+}

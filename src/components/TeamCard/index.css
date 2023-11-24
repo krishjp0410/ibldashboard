@@ -1,0 +1,30 @@
+.list-item-link {
+  text-decoration: none;
+}
+
+.list-item-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid#ffffff;
+  background-color: #475569;
+  border-radius: 6px;
+  padding: 10px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 16px;
+  width: 310px;
+}
+
+.list-item-image {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.list-item-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
